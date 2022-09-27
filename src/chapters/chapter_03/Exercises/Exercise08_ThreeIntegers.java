@@ -1,7 +1,5 @@
 package chapters.chapter_03.Exercises;
 
-import javafx.scene.transform.Scale;
-
 import java.util.Scanner;
 
 public class Exercise08_ThreeIntegers {

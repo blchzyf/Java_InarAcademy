@@ -1,0 +1,28 @@
+*Variables:
+  *A variable represents a value stored in the computer’s memory.
+  *Identifiers are the names that identify the elements such as classes, methods, and variables in a program.
+*Primitive data types or fundamental data types : integers, real numbers, characters and Boolean types
+*Floating-point data types : double
+* java.util is a specific import. It specifies a single class in the import statement
+* java.util.* is a wildcard import. It imports all the classes in a package.
+  *There is no performance difference between a specific import and a wildcard import declaration.
+*Identifiers:
+  * An identifier is a sequence of characters that consists of letters, digits, underscores (_), and dollar signs ($).
+  * An identifier must start with a letter, an underscore (_), or a dollar sign ($). It cannot start with a digit.
+  * An identifier cannot be a reserved word.
+  * An identifier cannot be true, false, or null.
+  * An identifier can be of any length.
+  * Java is case sensitive. Area, area, and AREA are all different identifiers.
+*Constants
+  * The word final is a Java keyword for declaring a constant.
+  * You don’t have to repeatedly type the same value if it is used multiple times
+  * if you have to change the constant value (e.g., from 3.14 to 3.14159 for PI),
+    you need to change it only in a single location in the source code
+  * A descriptive name for a constant makes the program easy to read.
+*Conventions
+  *Use lowercase for variables and methods.
+*Numeric Data Types
+  * Java uses the 32-bit IEEE 754 for the float type and the 64-bit IEEE 754 for the double type.
+  * The range for a byte value is from –128 to 127.
+  * the int value is between -231 (-2147483648) and 231 - 1 (2147483647).
+

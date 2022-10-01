@@ -1,0 +1,32 @@
+Math.toDegrees(Math.PI / 2) returns 90.0
+Math.toRadians(30) returns 0.5236 (same as π/6)
+Math.sin(0) returns 0.0
+Math.sin(Math.toRadians(270)) returns -1.0
+Math.sin(Math.PI / 6) returns 0.5
+Math.sin(Math.PI / 2) returns 1.0
+Math.cos(0) returns 1.0
+Math.cos(Math.PI / 6) returns 0.866
+Math.cos(Math.PI / 2) returns 0
+Math.asin(0.5) returns 0.523598333 (same as π/6)
+Math.acos(0.5) returns 1.0472 (same as π/3)
+Math.atan(1.0) returns 0.785398 (same as π/4)
+---------------------------------------------
+Exponent Methods in the Math Class
+exp(x)      Returns e raised to power of x (ex).
+log(x)      Returns the natural logarithm of x (ln(x) = loge(x)).
+log10(x)    Returns the base 10 logarithm of x (log10(x)).
+pow(a, b)   Returns a raised to the power of b (ab).
+sqrt(x)     Returns the square root of x (2x) for x 7 = 0.
+---------------------------------------------
+Rounding Methods
+ceil(x)     x is rounded up to its nearest integer. This integer is returned as a double value.
+floor(x)    x is rounded down to its nearest integer. This integer is returned as a double value.
+rint(x)     x is rounded up to its nearest integer. If x is equally close to two integers, the even one is returned as a double value.
+round(x)    Returns (int)Math.floor(x + 0.5) if x is a float and returns (long)Math.floor(x + 0.5) if x is a double.
+---------------------------------------------
+min, max, abs
+Math.max(2, 3) returns 3
+Math.max(2.5, 3) returns 4.0
+Math.min(2.5, 4.6) returns 2.5
+Math.abs(-2) returns 2
+Math.abs(-2.1) returns 2.1
